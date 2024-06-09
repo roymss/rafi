@@ -1,0 +1,284 @@
+/* My Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+/* My Root */
+
+:root {
+  --opsans: "Open Sans", sans-serif;
+  --roboto: "Roboto", sans-serif;
+  --dmsans: "DM Sans", sans-serif;
+  --inter: "Inter", sans-serif;
+  --bebas: "Bebas Neue", sans-serif;
+  --mari: "Merriweather", serif;
+  --pcf: "Pacifico", cursive;
+  --clr: #b62d25;
+  --clr--2: #df453e;
+}
+
+/* My Styles */
+
+.navbar {
+  background: transparent;
+}
+
+
+.navbar .container .navbar-nav a {
+  color: #f5f5f5;
+  font-size: 1rem;
+}
+
+.navbar .container .navbar-brand {
+  font-family: var(--bebas);
+  color: #f5f5f5;
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  font-family: var(--roboto);
+  color: #f5f5f5;
+}
+
+.navbar .container form .btn-danger {
+  background: var(--clr--2);
+  border-radius: 0%;
+  font-family: var(--inter);
+}
+
+.navbar .container form input {
+  border-radius: 0%;
+  font-family: var(--inter);
+}
+
+.navbar .container form .btn-danger:hover {
+  background: var(--clr);
+}
+
+/* Main page */
+
+.main-page {
+  background-repeat: no-repeat;
+  background-image: url(../assets/img/bg6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-page .btn-danger {
+  background: var(--clr--2);
+  border-radius: 0%;
+  font-family: var(--inter);
+  width: fit-content;
+}
+
+.title-h2 {
+  font-size: 3rem;
+  font-family: var(--mari);
+}
+
+.title-h1 {
+  font-size: 6rem;
+  font-family: var(--mari);
+}
+
+/* New Arrivals */
+
+.arrivals .container .row .card {
+  border: none;
+}
+
+.arrivals .container h2 {
+  font-family: var(--mari);
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.arrivals .container {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.card-text {
+  font-family: var(--opsans);
+  font-weight: lighter;
+}
+
+.card-title {
+  font-family: var(--mari);
+  font-weight: bold;
+}
+
+.card .card-body .btn-danger {
+  background: var(--clr--2);
+  border-radius: 0%;
+  font-family: var(--inter);
+}
+
+.card .card-body .btn-danger:hover {
+  background: var(--clr);
+}
+
+/* Paralax */
+
+.paralax {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../assets/img/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.wrapper-para {
+    background: linear-gradient(0deg, rgba(1,1,1,0.9) 29%, rgba(1,1,1,0.05) 99%);
+    gap: 2rem;
+}
+
+.wrapper-para h3 {
+  font-family: var(--mari);
+  font-size: 3rem;
+}
+
+.wrapper-para h4 {
+  font-family: var(--mari);
+  font-size: 2rem;
+}
+
+.wrapper-para p {
+  font-family: var(--dmsans);
+  font-size: 0.8rem;
+}
+
+.wrapper-para .btn-danger {
+  background: var(--clr--2);
+  border-radius: 0%;
+  font-family: var(--inter);
+}
+
+.wrapper-para .btn-danger:hover {
+  background-color: var(--clr);
+}
+
+.paralax-2 {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../assets/img/bg-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.paralax-3 {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../assets/img/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Last Content */
+
+.last-content {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../assets/img/bg4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.wrapper-para .nike {
+    font-size: 3rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0px -112px 116px 58px rgba(1,1,1,0.75);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin: 20px;
+  max-width: 300px;
+}
+
+.footer-section h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ff6600;
+}
+
+.footer-section p,
+.footer-section ul {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #ff6600;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s;
+}
+
+.social-icons img:hover {
+  filter: brightness(0) invert(0.6);
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  font-size: 12px;
+}
