@@ -61,7 +61,7 @@ $result = mysqli_fetch_assoc($query);
 
     <!-- Content -->
 
-    <div class="container admin-profile">
+    <div class="container admin-profile mb-5">
         <h2 class="text-center">Admin Profile</h2>
         <div class="row gap-2">
             <img class="mt-4 mx-auto mb-4" src="../assets/img/<?= $result["gambar_admin"]; ?>" alt="" style="width: 12rem; height:10rem;">

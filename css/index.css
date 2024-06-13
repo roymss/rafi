@@ -142,17 +142,17 @@
 
 .wrapper-para h3 {
   font-family: var(--mari);
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .wrapper-para h4 {
   font-family: var(--mari);
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .wrapper-para p {
   font-family: var(--dmsans);
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .wrapper-para .btn-danger {
