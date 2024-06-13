@@ -1,9 +1,9 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jun 09, 2024 at 01:03 PM
+-- Generation Time: Jun 13, 2024 at 02:54 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -84,10 +84,7 @@ CREATE TABLE `shoes` (
 --
 
 INSERT INTO `shoes` (`id`, `gambar`, `tipe`, `judul`, `harga`) VALUES
-(1, 'produk.jpg', 'Phantom GT2 ELITE', 'Phantom GT2 ELITE', '$350.07'),
-(7, 'bg-2.jpg', 'asddddddddddasd', 'asddddddd', 'asddddddd'),
-(8, '6665a73b4305a.jpeg', 'zzzzzzzzzz', 'zzzzzzzzz', 'zzzzz'),
-(9, '6665a79d738ea.png', 'Budak', 'Rifan J2 Prime', '$25');
+(10, '66697a8bc0138.png', 'ghgh', 'hjh', 'huhi');
 
 --
 -- Indexes for dumped tables
@@ -131,7 +128,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `shoes`
 --
 ALTER TABLE `shoes`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
